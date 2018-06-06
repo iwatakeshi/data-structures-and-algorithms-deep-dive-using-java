@@ -1,5 +1,6 @@
 /**
  * BubbleSort
+ * Time complexity: O(n^2)
  */
 public class BubbleSort {
     public static void main(String[] args) {
