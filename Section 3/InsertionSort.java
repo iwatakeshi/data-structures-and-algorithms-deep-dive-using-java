@@ -35,14 +35,6 @@ public class InsertionSort {
         array[a] = array[b];
     }
 
-    private static void swap(int[] array, int a, int b) {
-        if (a == b) return;
-
-        int temp = array[a];
-        array[a] = array[b];
-        array[b] = temp;
-    }
-
     private static void print(int[] array) {
         for (int item : array) {
             System.out.print(item + " ");
